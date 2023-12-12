@@ -16,7 +16,7 @@
 
 ## Assign hostname &  login as ‘root’ user because the following set of commands need to be executed with ‘sudo’ permissions.
 ```sh
-sudo hostnamectl set-hostname master
+#sudo hostnamectl set-hostname master
 sudo -i
 ```
 
@@ -26,7 +26,7 @@ sudo -i
 # copy this script and run in all master and worker nodes
 #i1) Switch to root user [ sudo -i]
 
-#sudo hostnamectl set-hostname  node1
+sudo hostnamectl set-hostname  node1
 
 #2) Disable swap & add kernel settings
 
